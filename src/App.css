@@ -1,0 +1,44 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.slot-management {
+  margin-top: 20px;
+}
+
+.slot-management input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.slot-management button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.slot-management button:hover {
+  background-color: #0056b3;
+}
+
+.slot-management ul {
+  list-style: none;
+  padding: 0;
+}
+
+.slot-management li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
